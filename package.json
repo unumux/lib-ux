@@ -1,0 +1,26 @@
+{
+  "name": "@unumux/lib-ux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "gulp"
+  },
+  "author": "f",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.3.14",
+    "glob": "^6.0.4",
+    "lodash": "^4.0.0",
+    "semver": "^5.1.0"
+  }
+}
